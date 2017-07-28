@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#title {
+	
+	height: 200px;
+	background-image: url(http://otoxemay.asia/sites/default/files/hinh-nen.jpg);
+
+}
+
+#title {
+	text-align: center;
+	padding-top:7%;
+	width: 100%;
+	height: 400px;
+
+}
+
+ul {
+
+    width: 14.286%;
+    float: left;
+    list-style-type: none;
+
+
+
+}
+li{
+	text-align: center;
+    padding: 8px;
+    background-color: #abf9a2;
+    border: 1px solid black;
+
+}
+
+#div_to {
+
+	margin: 50px;
+
+
+}
+h1 {
+	
+color: red;
+
+	}
+
+#title img {
+
+	width: 100%;
+	height: 400px;
+
+
+}

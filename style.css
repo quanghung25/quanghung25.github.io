@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; 
+	font-family: sans-serif;
+}
+body{
+	background: #efefef;
+	color: #343944 ;
+}
+p , h1 , h2 , h3 , h4 , h5 , h6 {
+	margin-bottom:10px; 
+	line-height: 26px;
+}
+hr {
+	margin: 30px 30px 50px 30px ;
+}
+#bg {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	/*overflow: hidden;*/
+}
+#bg img {
+	width: 100%;
+	margin-bottom: 0px;
+}
+#bg::before{
+	content: '';
+	width: 100%;
+	background-color: rgba(44, 51, 64, 0.5);
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+#profile{
+	width: 960px ;
+	background: white;
+	position:absolute;
+	top:100px;
+	left: 50%;
+	margin-left:-480PX; 
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+	padding: 70px;
+	margin-bottom:300px; 
+}
+#image {
+	width: 90%;
+	text-align: center;
+}
+img {
+	width: auto;
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+#hi {
+	position:absolute;
+	background: #343944;
+	padding: 20px 20px 10px 20px;
+	display: inline-block;
+	color: white;
+	top: 100px;
+	right: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+#hi::before {
+	content: '';
+    top: 100%;
+    left: 25%;
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 0 0 15px 15px;
+    border-left-color: #343944;
+    border-bottom-color: transparent;
+}
+#name {
+	width: 90%;
+	text-align: center;
+	margin-bottom:50px; 
+}
+#tieu_de {
+	width: 40%;
+	display: inline-block;
+	padding-right: 3%;
+	text-align: right;
+} 
+#thong_tin{
+	width: 100%;
+	display: inline-block;
+	
+	clear: both;
+} 
+#text{
+	
+}
+#text p , #text h1 , #text h2 , #text h3 , #text h4 , #text h5 , #text h6 {
+	text-align: left;
+}
+#text img{
+	margin: 20px;
+
+}
+span {
+	font-size: 25px;
+	color: green;
+	padding-left: 28%;
+	clear: both;
+
+}
+
+
+
+
+
+
